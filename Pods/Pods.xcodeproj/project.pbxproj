@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D50744E191F1BADB9B3A129C1C4262 /* Pods-MyDuniaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 223EE9AB3A9E4B721493F03465E65AAE /* Pods-MyDuniaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CB07698C3D700470081C94C05F392F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		1E53595500E2FD9AA0B072249254EB96 /* SideMenuController+SideUnder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073184D141B0CEF147CC6B604B03582 /* SideMenuController+SideUnder.swift */; };
+		249903D9D11CE498CA03D61D6F615FCD /* Pods-MyDuniaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE125B6689892A6D466915161DE678 /* Pods-MyDuniaTests-dummy.m */; };
+		26D4CF6B97B86C206D3148F3882C2122 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E21C50B477C06F1959F1A35E8CEEF28 /* ReachabilitySwift-dummy.m */; };
+		40F16B8EE1ADF4854B6FF892357A5ACC /* SideMenuController+CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B49504B112622269E91E853613A9E /* SideMenuController+CustomTypes.swift */; };
+		4F56DCA8CEC12922E8B2FE8E042C7A5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		5DF64343AA49D6EA42839454F001177A /* CenterContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115AE9B730C60956A5CC224C3B7AA4A /* CenterContainmentSegue.swift */; };
+		65379C1DD8EF2E521CB2BAA919666D01 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AEF38DC87FA3B3610FCC9B34679AF2 /* TransitionAnimator.swift */; };
+		6A48F9A4B7715C5BCA4EA442FD5B0259 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CE119D084ADB268B56862AFF81B4E /* Reachability.swift */; };
+		6FBBD496606685B2EE46CE4390942A70 /* SideContainmentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BF27AC57735482DB3F6D3B0FC92C0 /* SideContainmentSegue.swift */; };
+		7E190B6388A40A9F947CFDA0C291BA59 /* Pods-MyDunia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E79D14462640F4964494677839F8419A /* Pods-MyDunia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F17B314683BF1C9E62001EA00EF78E /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B6E2CD8D3599583794669F819DF49 /* UIKitExtensions.swift */; };
+		9273179FC36CDA8A427C1A449E52B8C8 /* SideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB118298C5F2C1DA7B6BE5EED5CCAF2 /* SideMenuController-dummy.m */; };
+		94089AF99D54B904C338F2FFFC23D3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		A156B576C66F1F46BEF5AC2A38444E7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */; };
+		B402DBBC3A8F87A14A10A154AFB09B3D /* SideMenuController+SideOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B80BF781F90D2370ADA9AF3AC21A8 /* SideMenuController+SideOver.swift */; };
+		D227EC7FB37BD56566141F8AA973BC03 /* Pods-MyDunia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 006EA372B883973A42672C3D9833D8AC /* Pods-MyDunia-dummy.m */; };
+		E1BC33721F6FD92377BADBE327DD8B67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		E27C87E6029242C8FE4DDFE13B994A7F /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FB2D10E26ED0F93B5AD50CEDC6E448 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E681024842CBE75B27717DDE3AA28CCB /* SideMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A57B336B1E4D375E7275902FC7AE57 /* SideMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0C726FB8D4686BBA19E86C8DAA6407 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAA795ED97437FEB28C0BFAE899BE5 /* SideMenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7AA78427BF0FA8A8E0085862E61E3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728CEEC787270FA22B625C551868CB96;
+			remoteInfo = SideMenuController;
+		};
+		F861C683521710EB03F5E7BD6120E812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0540B78952129CE913981CA6BFA56C7C;
+			remoteInfo = ReachabilitySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006EA372B883973A42672C3D9833D8AC /* Pods-MyDunia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyDunia-dummy.m"; sourceTree = "<group>"; };
+		016B49504B112622269E91E853613A9E /* SideMenuController+CustomTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+CustomTypes.swift"; path = "Source/SideMenuController+CustomTypes.swift"; sourceTree = "<group>"; };
+		032FA1A3357CAE272749F29B46511C43 /* SideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuController.framework; path = SideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0386E16F38B9966581A3ECFFF9BBEB97 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		05E59640D8D0068564B2EC856D77EDB0 /* Pods_MyDunia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyDunia.framework; path = "Pods-MyDunia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0762B21DA4D0444F39F1760E9CC0FBE4 /* Pods-MyDuniaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDuniaTests-resources.sh"; sourceTree = "<group>"; };
+		1073184D141B0CEF147CC6B604B03582 /* SideMenuController+SideUnder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideUnder.swift"; path = "Source/SideMenuController+SideUnder.swift"; sourceTree = "<group>"; };
+		132B6E2CD8D3599583794669F819DF49 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
+		134C3455364CAA5752615B91297A8ACF /* Pods-MyDunia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDunia-frameworks.sh"; sourceTree = "<group>"; };
+		1CF7F27E154844340900358FDF32E338 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		1E21C50B477C06F1959F1A35E8CEEF28 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		223EE9AB3A9E4B721493F03465E65AAE /* Pods-MyDuniaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyDuniaTests-umbrella.h"; sourceTree = "<group>"; };
+		260BF27AC57735482DB3F6D3B0FC92C0 /* SideContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideContainmentSegue.swift; path = Source/SideContainmentSegue.swift; sourceTree = "<group>"; };
+		2B9675B97CFFA675E41392D5B76D3864 /* Pods-MyDuniaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyDuniaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CB118298C5F2C1DA7B6BE5EED5CCAF2 /* SideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuController-dummy.m"; sourceTree = "<group>"; };
+		2DCF07137E1657C8E121D7D7B6D69BBD /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		365BAA550F255D7339104920AEC601D1 /* Pods-MyDunia-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDunia-resources.sh"; sourceTree = "<group>"; };
+		38809049BCEEDC28FCF58AFCB4962289 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FB2D10E26ED0F93B5AD50CEDC6E448 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		4B00F166E1349FFA3032B7792C5DA6E4 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		4C9D25C5B3D73D5C44D1D090B45F4F56 /* SideMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuController.xcconfig; sourceTree = "<group>"; };
+		4FAAA795ED97437FEB28C0BFAE899BE5 /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = Source/SideMenuController.swift; sourceTree = "<group>"; };
+		5658B126617323FBC4944ACBB91BBB72 /* Pods-MyDunia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyDunia-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A15F831828A914BA801FCFA5FFB9D97 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		7A5275FC026E822E32DA18F41E5E1490 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		7BAE125B6689892A6D466915161DE678 /* Pods-MyDuniaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyDuniaTests-dummy.m"; sourceTree = "<group>"; };
+		80E6F91E9B5805955A963934012B4E9E /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		8201284AC6ABF8755E572A6CA66A1192 /* SideMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenuController.modulemap; sourceTree = "<group>"; };
+		82EA539CD399C39A7B602F9E7DB80415 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		8E8FF201E22501E3CD07C0FB0982275C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE46584E14D9E5CB3BD2D07D6A8F00B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945321D8861B4CDC61CBFEAE632EA201 /* Pods-MyDunia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyDunia-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94D1639F8C98AD6C7FE28577BF6ACB49 /* Pods-MyDunia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDunia.release.xcconfig"; sourceTree = "<group>"; };
+		97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D65F09DFD7AD500403257F951D58A29 /* Pods-MyDuniaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyDuniaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2DB0B80B173B0F2C7894CB252899FAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39D1D05C756D394B91FBA89E4BA946F /* Pods_MyDuniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyDuniaTests.framework; path = "Pods-MyDuniaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3E92D4527C474413F78649BD7C0ABD /* Pods-MyDuniaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDuniaTests-frameworks.sh"; sourceTree = "<group>"; };
+		AE1961F5B7D5CCA833C92369290BCC55 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		B0A629DA51AE51ABB1EE5727C268F4E4 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A57B336B1E4D375E7275902FC7AE57 /* SideMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-umbrella.h"; sourceTree = "<group>"; };
+		B54CE119D084ADB268B56862AFF81B4E /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		B5FA2F2438F5773AD73A043789EB4AD1 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		B6957D3584252529F21DD689F7A51373 /* Pods-MyDuniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDuniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07D001D55F0DD0A4E131B48896751FA /* Pods-MyDunia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDunia.debug.xcconfig"; sourceTree = "<group>"; };
+		C25B80BF781F90D2370ADA9AF3AC21A8 /* SideMenuController+SideOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideOver.swift"; path = "Source/SideMenuController+SideOver.swift"; sourceTree = "<group>"; };
+		D12F8FFBB25444E3F0A391D64486D1C6 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		D1AEF38DC87FA3B3610FCC9B34679AF2 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = "<group>"; };
+		D54A7A49272679EBB57E9321297DE8EA /* SideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		DA067FD8B07903BAFAC6F9FE8F6A3656 /* Pods-MyDunia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyDunia.modulemap"; sourceTree = "<group>"; };
+		DE438C3DDE8B3E334347255AF8CAE5A9 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		E787128FC24DB97B67A3E1B9FF3909EF /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		E79D14462640F4964494677839F8419A /* Pods-MyDunia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyDunia-umbrella.h"; sourceTree = "<group>"; };
+		F110F42F332DE76C790289C619DEE4E1 /* Pods-MyDuniaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyDuniaTests.modulemap"; sourceTree = "<group>"; };
+		F115AE9B730C60956A5CC224C3B7AA4A /* CenterContainmentSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenterContainmentSegue.swift; path = Source/CenterContainmentSegue.swift; sourceTree = "<group>"; };
+		F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F9D2832E4E053D4ABE152225FE82E553 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		FB67BA9BC3B18B97B24F4A359D536B10 /* Pods-MyDuniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDuniaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D8C6B0F44B140D25561B98A2D7F627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CB07698C3D700470081C94C05F392F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA1C766637CDA6A95E7FFA12E576BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BC33721F6FD92377BADBE327DD8B67 /* Foundation.framework in Frameworks */,
+				A156B576C66F1F46BEF5AC2A38444E7F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADE42AD6FFEE229135BE7BF4E2F4276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F56DCA8CEC12922E8B2FE8E042C7A5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2505FE9B5B6C5B72206CBD82684816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94089AF99D54B904C338F2FFFC23D3B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08877ADD5389F74D05443C1CF903ABF1 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				B54CE119D084ADB268B56862AFF81B4E /* Reachability.swift */,
+				83C48FE627E872EBE84F60D938798F5C /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		10EA2A2B43F7BF2FD67B6226943B041E /* SideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				F115AE9B730C60956A5CC224C3B7AA4A /* CenterContainmentSegue.swift */,
+				260BF27AC57735482DB3F6D3B0FC92C0 /* SideContainmentSegue.swift */,
+				4FAAA795ED97437FEB28C0BFAE899BE5 /* SideMenuController.swift */,
+				016B49504B112622269E91E853613A9E /* SideMenuController+CustomTypes.swift */,
+				C25B80BF781F90D2370ADA9AF3AC21A8 /* SideMenuController+SideOver.swift */,
+				1073184D141B0CEF147CC6B604B03582 /* SideMenuController+SideUnder.swift */,
+				D1AEF38DC87FA3B3610FCC9B34679AF2 /* TransitionAnimator.swift */,
+				132B6E2CD8D3599583794669F819DF49 /* UIKitExtensions.swift */,
+				3F4F88B0CE92291AB92A58C68B0DE5A1 /* Support Files */,
+			);
+			name = SideMenuController;
+			path = SideMenuController;
+			sourceTree = "<group>";
+		};
+		1728FB27DAEF7F38A4CA71125A688DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFDA8B5CB776651CF3678781FD57DD /* Crashlytics */,
+				93CA967AC9691BDB5C457F710E1F58B9 /* Fabric */,
+				08877ADD5389F74D05443C1CF903ABF1 /* ReachabilitySwift */,
+				10EA2A2B43F7BF2FD67B6226943B041E /* SideMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28B67E88CDFE1453C6A8864664ED1578 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48126CD6F4071EC4EC3D4D43B0A27C86 /* Pods-MyDunia */,
+				7D109354AD22ED098A1656FEE61D7A12 /* Pods-MyDuniaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29674D5B4F21AD2E5E379B5D67BC21F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E787128FC24DB97B67A3E1B9FF3909EF /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4F88B0CE92291AB92A58C68B0DE5A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38809049BCEEDC28FCF58AFCB4962289 /* Info.plist */,
+				8201284AC6ABF8755E572A6CA66A1192 /* SideMenuController.modulemap */,
+				4C9D25C5B3D73D5C44D1D090B45F4F56 /* SideMenuController.xcconfig */,
+				2CB118298C5F2C1DA7B6BE5EED5CCAF2 /* SideMenuController-dummy.m */,
+				D54A7A49272679EBB57E9321297DE8EA /* SideMenuController-prefix.pch */,
+				B4A57B336B1E4D375E7275902FC7AE57 /* SideMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuController";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48126CD6F4071EC4EC3D4D43B0A27C86 /* Pods-MyDunia */ = {
+			isa = PBXGroup;
+			children = (
+				8FE46584E14D9E5CB3BD2D07D6A8F00B /* Info.plist */,
+				DA067FD8B07903BAFAC6F9FE8F6A3656 /* Pods-MyDunia.modulemap */,
+				945321D8861B4CDC61CBFEAE632EA201 /* Pods-MyDunia-acknowledgements.markdown */,
+				5658B126617323FBC4944ACBB91BBB72 /* Pods-MyDunia-acknowledgements.plist */,
+				006EA372B883973A42672C3D9833D8AC /* Pods-MyDunia-dummy.m */,
+				134C3455364CAA5752615B91297A8ACF /* Pods-MyDunia-frameworks.sh */,
+				365BAA550F255D7339104920AEC601D1 /* Pods-MyDunia-resources.sh */,
+				E79D14462640F4964494677839F8419A /* Pods-MyDunia-umbrella.h */,
+				C07D001D55F0DD0A4E131B48896751FA /* Pods-MyDunia.debug.xcconfig */,
+				94D1639F8C98AD6C7FE28577BF6ACB49 /* Pods-MyDunia.release.xcconfig */,
+			);
+			name = "Pods-MyDunia";
+			path = "Target Support Files/Pods-MyDunia";
+			sourceTree = "<group>";
+		};
+		4DCDADC843721B8B8714C91DE1E26428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0386E16F38B9966581A3ECFFF9BBEB97 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7221F9B39DCD26C9CFDC149A28CB1ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E59640D8D0068564B2EC856D77EDB0 /* Pods_MyDunia.framework */,
+				A39D1D05C756D394B91FBA89E4BA946F /* Pods_MyDuniaTests.framework */,
+				B0A629DA51AE51ABB1EE5727C268F4E4 /* ReachabilitySwift.framework */,
+				032FA1A3357CAE272749F29B46511C43 /* SideMenuController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D109354AD22ED098A1656FEE61D7A12 /* Pods-MyDuniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8FF201E22501E3CD07C0FB0982275C /* Info.plist */,
+				F110F42F332DE76C790289C619DEE4E1 /* Pods-MyDuniaTests.modulemap */,
+				2B9675B97CFFA675E41392D5B76D3864 /* Pods-MyDuniaTests-acknowledgements.markdown */,
+				9D65F09DFD7AD500403257F951D58A29 /* Pods-MyDuniaTests-acknowledgements.plist */,
+				7BAE125B6689892A6D466915161DE678 /* Pods-MyDuniaTests-dummy.m */,
+				AC3E92D4527C474413F78649BD7C0ABD /* Pods-MyDuniaTests-frameworks.sh */,
+				0762B21DA4D0444F39F1760E9CC0FBE4 /* Pods-MyDuniaTests-resources.sh */,
+				223EE9AB3A9E4B721493F03465E65AAE /* Pods-MyDuniaTests-umbrella.h */,
+				B6957D3584252529F21DD689F7A51373 /* Pods-MyDuniaTests.debug.xcconfig */,
+				FB67BA9BC3B18B97B24F4A359D536B10 /* Pods-MyDuniaTests.release.xcconfig */,
+			);
+			name = "Pods-MyDuniaTests";
+			path = "Target Support Files/Pods-MyDuniaTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1728FB27DAEF7F38A4CA71125A688DFB /* Pods */,
+				7221F9B39DCD26C9CFDC149A28CB1ECF /* Products */,
+				28B67E88CDFE1453C6A8864664ED1578 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C48FE627E872EBE84F60D938798F5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DB0B80B173B0F2C7894CB252899FAA /* Info.plist */,
+				D12F8FFBB25444E3F0A391D64486D1C6 /* ReachabilitySwift.modulemap */,
+				80E6F91E9B5805955A963934012B4E9E /* ReachabilitySwift.xcconfig */,
+				1E21C50B477C06F1959F1A35E8CEEF28 /* ReachabilitySwift-dummy.m */,
+				82EA539CD399C39A7B602F9E7DB80415 /* ReachabilitySwift-prefix.pch */,
+				44FB2D10E26ED0F93B5AD50CEDC6E448 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		93CA967AC9691BDB5C457F710E1F58B9 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2832E4E053D4ABE152225FE82E553 /* FABAttributes.h */,
+				7A15F831828A914BA801FCFA5FFB9D97 /* Fabric.h */,
+				29674D5B4F21AD2E5E379B5D67BC21F5 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		CDAFDA8B5CB776651CF3678781FD57DD /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF07137E1657C8E121D7D7B6D69BBD /* ANSCompatibility.h */,
+				4B00F166E1349FFA3032B7792C5DA6E4 /* Answers.h */,
+				7A5275FC026E822E32DA18F41E5E1490 /* CLSAttributes.h */,
+				B5FA2F2438F5773AD73A043789EB4AD1 /* CLSLogging.h */,
+				DE438C3DDE8B3E334347255AF8CAE5A9 /* CLSReport.h */,
+				1CF7F27E154844340900358FDF32E338 /* CLSStackFrame.h */,
+				AE1961F5B7D5CCA833C92369290BCC55 /* Crashlytics.h */,
+				4DCDADC843721B8B8714C91DE1E26428 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */,
+				F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9255060968FC111748D6E77E0581EAB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D50744E191F1BADB9B3A129C1C4262 /* Pods-MyDuniaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A928B1ECDE5F2FE2D3B03D50E07B1EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681024842CBE75B27717DDE3AA28CCB /* SideMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCA6B429FB3BCB73CE442C883CC2E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E190B6388A40A9F947CFDA0C291BA59 /* Pods-MyDunia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A2F44A1B14B2999E56F51FD84DB7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27C87E6029242C8FE4DDFE13B994A7F /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0540B78952129CE913981CA6BFA56C7C /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DA3498F7095DD850DDD16EEE9D5D92 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				CA89F7168100FB8E62E1029603D7791D /* Sources */,
+				0AA1C766637CDA6A95E7FFA12E576BFB /* Frameworks */,
+				B01A2F44A1B14B2999E56F51FD84DB7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = B0A629DA51AE51ABB1EE5727C268F4E4 /* ReachabilitySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19078B3F0B1642925902BDDF75C3C8A9 /* Pods-MyDuniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016FC1A2506F3C2A1442C9C29CC870C2 /* Build configuration list for PBXNativeTarget "Pods-MyDuniaTests" */;
+			buildPhases = (
+				EBC077360545D3DD0456D6003CB8D67A /* Sources */,
+				5ADE42AD6FFEE229135BE7BF4E2F4276 /* Frameworks */,
+				9255060968FC111748D6E77E0581EAB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyDuniaTests";
+			productName = "Pods-MyDuniaTests";
+			productReference = A39D1D05C756D394B91FBA89E4BA946F /* Pods_MyDuniaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		728CEEC787270FA22B625C551868CB96 /* SideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0F1E9776A76D71263F0B2B754296B3 /* Build configuration list for PBXNativeTarget "SideMenuController" */;
+			buildPhases = (
+				9E8D6934CB89C4AB3A19F34708F6CE5C /* Sources */,
+				5B2505FE9B5B6C5B72206CBD82684816 /* Frameworks */,
+				9A928B1ECDE5F2FE2D3B03D50E07B1EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuController;
+			productName = SideMenuController;
+			productReference = 032FA1A3357CAE272749F29B46511C43 /* SideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E944C579FDAC0D3059CF7B7537796AFA /* Pods-MyDunia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5247A9EC54EF061EA47085590BA1B1F6 /* Build configuration list for PBXNativeTarget "Pods-MyDunia" */;
+			buildPhases = (
+				A0BD3F60BB8DB6A059567BE712AB97DA /* Sources */,
+				00D8C6B0F44B140D25561B98A2D7F627 /* Frameworks */,
+				9FCA6B429FB3BCB73CE442C883CC2E91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961A6647A164318F3A39AF7CA431F0C0 /* PBXTargetDependency */,
+				18ACACD7D28CF81DFCCFA562A1EAB0C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyDunia";
+			productName = "Pods-MyDunia";
+			productReference = 05E59640D8D0068564B2EC856D77EDB0 /* Pods_MyDunia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7221F9B39DCD26C9CFDC149A28CB1ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E944C579FDAC0D3059CF7B7537796AFA /* Pods-MyDunia */,
+				19078B3F0B1642925902BDDF75C3C8A9 /* Pods-MyDuniaTests */,
+				0540B78952129CE913981CA6BFA56C7C /* ReachabilitySwift */,
+				728CEEC787270FA22B625C551868CB96 /* SideMenuController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8D6934CB89C4AB3A19F34708F6CE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF64343AA49D6EA42839454F001177A /* CenterContainmentSegue.swift in Sources */,
+				6FBBD496606685B2EE46CE4390942A70 /* SideContainmentSegue.swift in Sources */,
+				40F16B8EE1ADF4854B6FF892357A5ACC /* SideMenuController+CustomTypes.swift in Sources */,
+				B402DBBC3A8F87A14A10A154AFB09B3D /* SideMenuController+SideOver.swift in Sources */,
+				1E53595500E2FD9AA0B072249254EB96 /* SideMenuController+SideUnder.swift in Sources */,
+				9273179FC36CDA8A427C1A449E52B8C8 /* SideMenuController-dummy.m in Sources */,
+				EB0C726FB8D4686BBA19E86C8DAA6407 /* SideMenuController.swift in Sources */,
+				65379C1DD8EF2E521CB2BAA919666D01 /* TransitionAnimator.swift in Sources */,
+				88F17B314683BF1C9E62001EA00EF78E /* UIKitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BD3F60BB8DB6A059567BE712AB97DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227EC7FB37BD56566141F8AA973BC03 /* Pods-MyDunia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA89F7168100FB8E62E1029603D7791D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A48F9A4B7715C5BCA4EA442FD5B0259 /* Reachability.swift in Sources */,
+				26D4CF6B97B86C206D3148F3882C2122 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC077360545D3DD0456D6003CB8D67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249903D9D11CE498CA03D61D6F615FCD /* Pods-MyDuniaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18ACACD7D28CF81DFCCFA562A1EAB0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuController;
+			target = 728CEEC787270FA22B625C551868CB96 /* SideMenuController */;
+			targetProxy = D7AA78427BF0FA8A8E0085862E61E3EC /* PBXContainerItemProxy */;
+		};
+		961A6647A164318F3A39AF7CA431F0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0540B78952129CE913981CA6BFA56C7C /* ReachabilitySwift */;
+			targetProxy = F861C683521710EB03F5E7BD6120E812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24B8C627B469585FAE8ABC81CA4A548C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB67BA9BC3B18B97B24F4A359D536B10 /* Pods-MyDuniaTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyDuniaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyDuniaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F2414A5FBB6557ADD570E3C091B4F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6957D3584252529F21DD689F7A51373 /* Pods-MyDuniaTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyDuniaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyDuniaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40F3F48AAAB9EC767EB42316A2605CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9D25C5B3D73D5C44D1D090B45F4F56 /* SideMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6776667EFAA493CACF0C9B6A28E341FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07D001D55F0DD0A4E131B48896751FA /* Pods-MyDunia.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyDunia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyDunia/Pods-MyDunia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyDunia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		943570553E25F8DE70F62E9A6931976F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E6F91E9B5805955A963934012B4E9E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A818F8CA93ED4E9DB5A9CC99556730F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9D25C5B3D73D5C44D1D090B45F4F56 /* SideMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuController/SideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenuController/SideMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11992B5B8E171294CC505AF0AF89B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D1639F8C98AD6C7FE28577BF6ACB49 /* Pods-MyDunia.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyDunia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyDunia/Pods-MyDunia.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyDunia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3DA27D4EBA3672FE4359DCE1B2C6381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E6F91E9B5805955A963934012B4E9E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016FC1A2506F3C2A1442C9C29CC870C2 /* Build configuration list for PBXNativeTarget "Pods-MyDuniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2414A5FBB6557ADD570E3C091B4F91 /* Debug */,
+				24B8C627B469585FAE8ABC81CA4A548C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5247A9EC54EF061EA47085590BA1B1F6 /* Build configuration list for PBXNativeTarget "Pods-MyDunia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6776667EFAA493CACF0C9B6A28E341FE /* Debug */,
+				C11992B5B8E171294CC505AF0AF89B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DA3498F7095DD850DDD16EEE9D5D92 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943570553E25F8DE70F62E9A6931976F /* Debug */,
+				F3DA27D4EBA3672FE4359DCE1B2C6381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0F1E9776A76D71263F0B2B754296B3 /* Build configuration list for PBXNativeTarget "SideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A818F8CA93ED4E9DB5A9CC99556730F0 /* Debug */,
+				40F3F48AAAB9EC767EB42316A2605CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MyDunia.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyDuniaTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SideMenuController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0540B78952129CE913981CA6BFA56C7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>19078B3F0B1642925902BDDF75C3C8A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>728CEEC787270FA22B625C551868CB96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E944C579FDAC0D3059CF7B7537796AFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

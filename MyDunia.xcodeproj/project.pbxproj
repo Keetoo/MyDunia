@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0378A81F1693E500BEAC5A /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0378A71F1693E500BEAC5A /* WeatherForecast.swift */; };
+		0F0378AA1F1693F600BEAC5A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0378A91F1693F600BEAC5A /* SettingsVC.swift */; };
+		0F0378AC1F16941B00BEAC5A /* CurrencyConverterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0378AB1F16941B00BEAC5A /* CurrencyConverterVC.swift */; };
+		0F0378AE1F16943100BEAC5A /* EmergenvyContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0378AD1F16943100BEAC5A /* EmergenvyContactVC.swift */; };
+		0F0378B01F16944B00BEAC5A /* LanguageTranslatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0378AF1F16944B00BEAC5A /* LanguageTranslatorVC.swift */; };
+		0FFC4E851F19461800E27A95 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC4E841F19461800E27A95 /* CustomSideMenuController.swift */; };
+		0FFC4E871F1A8EA500E27A95 /* AvailCountryCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC4E861F1A8EA500E27A95 /* AvailCountryCollCell.swift */; };
+		0FFC4E891F1AA4BA00E27A95 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC4E881F1AA4BA00E27A95 /* NotificationVC.swift */; };
+		0FFC4E8B1F1AA5E700E27A95 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC4E8A1F1AA5E700E27A95 /* SearchResults.swift */; };
+		5D44C2B11F15DF7000AF0095 /* UIColor+KCSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B01F15DF7000AF0095 /* UIColor+KCSColor.swift */; };
+		5D44C2B31F15DFBB00AF0095 /* MyDuniaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B21F15DFBB00AF0095 /* MyDuniaConstants.swift */; };
+		5D44C2BC1F15EA4300AF0095 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B51F15EA4300AF0095 /* CAPSPageMenu.swift */; };
+		5D44C2BD1F15EA4300AF0095 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B61F15EA4300AF0095 /* CAPSPageMenu+Options.swift */; };
+		5D44C2BE1F15EA4300AF0095 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B71F15EA4300AF0095 /* CAPSPageMenu+UIConfiguration.swift */; };
+		5D44C2BF1F15EA4300AF0095 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B81F15EA4300AF0095 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		5D44C2C01F15EA4300AF0095 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2B91F15EA4300AF0095 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		5D44C2C11F15EA4300AF0095 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2BA1F15EA4300AF0095 /* CAPSPageMenuConfiguration.swift */; };
+		5D44C2C21F15EA4300AF0095 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2BB1F15EA4300AF0095 /* MenuItemView.swift */; };
+		5D44C2C41F15F12600AF0095 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2C31F15F12600AF0095 /* LocationManager.swift */; };
+		5D44C2C61F16059D00AF0095 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2C51F16059D00AF0095 /* User.swift */; };
+		5D44C2CA1F163F0900AF0095 /* signUpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2C91F163F0900AF0095 /* signUpData.swift */; };
+		5D44C2CC1F163F6200AF0095 /* MemberShipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44C2CB1F163F6200AF0095 /* MemberShipVC.swift */; };
+		5D69521E1F176FAD009BECEB /* AIOCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69521D1F176FAC009BECEB /* AIOCell.swift */; };
+		5D6952221F178E0B009BECEB /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6952211F178E0B009BECEB /* WeatherCell.swift */; };
+		5D6952241F17ADB6009BECEB /* EmergencyContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6952231F17ADB5009BECEB /* EmergencyContactCell.swift */; };
+		5D8E662B1F14D9AB00B734F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E662A1F14D9AB00B734F1 /* AppDelegate.swift */; };
+		5D8E662D1F14D9AB00B734F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E662C1F14D9AB00B734F1 /* ViewController.swift */; };
+		5D8E66301F14D9AB00B734F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8E662E1F14D9AB00B734F1 /* Main.storyboard */; };
+		5D8E66331F14D9AB00B734F1 /* MyDunia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66311F14D9AB00B734F1 /* MyDunia.xcdatamodeld */; };
+		5D8E66351F14D9AB00B734F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8E66341F14D9AB00B734F1 /* Assets.xcassets */; };
+		5D8E66381F14D9AB00B734F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8E66361F14D9AB00B734F1 /* LaunchScreen.storyboard */; };
+		5D8E66431F14D9AB00B734F1 /* MyDuniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66421F14D9AB00B734F1 /* MyDuniaTests.swift */; };
+		5D8E664F1F14DA4B00B734F1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E664E1F14DA4B00B734F1 /* LoginVC.swift */; };
+		5D8E66511F14DA5F00B734F1 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66501F14DA5F00B734F1 /* RegistrationVC.swift */; };
+		5D8E66531F14DA7700B734F1 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66521F14DA7700B734F1 /* ForgotPassword.swift */; };
+		5D8E66551F14DA8900B734F1 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66541F14DA8900B734F1 /* MyProfile.swift */; };
+		5D8E66571F14DAA000B734F1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66561F14DAA000B734F1 /* HomeVC.swift */; };
+		5D8E66651F14FFAD00B734F1 /* LeftMenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66641F14FFAD00B734F1 /* LeftMenueVC.swift */; };
+		5D8E66681F15061500B734F1 /* AreaOfIntrestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66671F15061500B734F1 /* AreaOfIntrestVC.swift */; };
+		5D8E666A1F150A7000B734F1 /* MyDuniaConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66691F150A7000B734F1 /* MyDuniaConnectionHelper.swift */; };
+		5DD30FEC1F18903F00B736BC /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30FEB1F18903F00B736BC /* CheckBoxButton.swift */; };
+		B2C7128CB3BCA08906897D3A /* Pods_MyDuniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD9BE15769714D408CEFCC /* Pods_MyDuniaTests.framework */; };
+		D8DDF0DFD4960DFE1CB232FF /* Pods_MyDunia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CA3317212D6968E1A6BF1 /* Pods_MyDunia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D8E663F1F14D9AB00B734F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D8E661F1F14D9AA00B734F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D8E66261F14D9AA00B734F1;
+			remoteInfo = MyDunia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E7EBDEE7A2AD6ACBB0E904 /* Pods-MyDunia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDunia.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDunia/Pods-MyDunia.release.xcconfig"; sourceTree = "<group>"; };
+		0F0378A71F1693E500BEAC5A /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		0F0378A91F1693F600BEAC5A /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		0F0378AB1F16941B00BEAC5A /* CurrencyConverterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverterVC.swift; sourceTree = "<group>"; };
+		0F0378AD1F16943100BEAC5A /* EmergenvyContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergenvyContactVC.swift; sourceTree = "<group>"; };
+		0F0378AF1F16944B00BEAC5A /* LanguageTranslatorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTranslatorVC.swift; sourceTree = "<group>"; };
+		0FFC4E841F19461800E27A95 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		0FFC4E861F1A8EA500E27A95 /* AvailCountryCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailCountryCollCell.swift; sourceTree = "<group>"; };
+		0FFC4E881F1AA4BA00E27A95 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		0FFC4E8A1F1AA5E700E27A95 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		5D44C2B01F15DF7000AF0095 /* UIColor+KCSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+KCSColor.swift"; sourceTree = "<group>"; };
+		5D44C2B21F15DFBB00AF0095 /* MyDuniaConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDuniaConstants.swift; sourceTree = "<group>"; };
+		5D44C2B51F15EA4300AF0095 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		5D44C2B61F15EA4300AF0095 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		5D44C2B71F15EA4300AF0095 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		5D44C2B81F15EA4300AF0095 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		5D44C2B91F15EA4300AF0095 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		5D44C2BA1F15EA4300AF0095 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		5D44C2BB1F15EA4300AF0095 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		5D44C2C31F15F12600AF0095 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5D44C2C51F16059D00AF0095 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D44C2C91F163F0900AF0095 /* signUpData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpData.swift; sourceTree = "<group>"; };
+		5D44C2CB1F163F6200AF0095 /* MemberShipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberShipVC.swift; sourceTree = "<group>"; };
+		5D69521D1F176FAC009BECEB /* AIOCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIOCell.swift; sourceTree = "<group>"; };
+		5D6952211F178E0B009BECEB /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		5D6952231F17ADB5009BECEB /* EmergencyContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyContactCell.swift; sourceTree = "<group>"; };
+		5D8E66271F14D9AA00B734F1 /* MyDunia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDunia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8E662A1F14D9AB00B734F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D8E662C1F14D9AB00B734F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D8E662F1F14D9AB00B734F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D8E66321F14D9AB00B734F1 /* MyDunia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDunia.xcdatamodel; sourceTree = "<group>"; };
+		5D8E66341F14D9AB00B734F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D8E66371F14D9AB00B734F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D8E66391F14D9AB00B734F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8E663E1F14D9AB00B734F1 /* MyDuniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDuniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8E66421F14D9AB00B734F1 /* MyDuniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDuniaTests.swift; sourceTree = "<group>"; };
+		5D8E66441F14D9AB00B734F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8E664E1F14DA4B00B734F1 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5D8E66501F14DA5F00B734F1 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		5D8E66521F14DA7700B734F1 /* ForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		5D8E66541F14DA8900B734F1 /* MyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		5D8E66561F14DAA000B734F1 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5D8E66641F14FFAD00B734F1 /* LeftMenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenueVC.swift; sourceTree = "<group>"; };
+		5D8E66671F15061500B734F1 /* AreaOfIntrestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaOfIntrestVC.swift; sourceTree = "<group>"; };
+		5D8E66691F150A7000B734F1 /* MyDuniaConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDuniaConnectionHelper.swift; sourceTree = "<group>"; };
+		5DD30FEB1F18903F00B736BC /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		5E31EBAF39898D967784E08A /* Pods-MyDunia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDunia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDunia/Pods-MyDunia.debug.xcconfig"; sourceTree = "<group>"; };
+		8891DA7502840F88537B6B48 /* Pods-MyDuniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDuniaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests.release.xcconfig"; sourceTree = "<group>"; };
+		99BD9BE15769714D408CEFCC /* Pods_MyDuniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDuniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C327C86724EC8C7F496DDB5F /* Pods-MyDuniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDuniaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E01CA3317212D6968E1A6BF1 /* Pods_MyDunia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDunia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D8E66241F14D9AA00B734F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DDF0DFD4960DFE1CB232FF /* Pods_MyDunia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8E663B1F14D9AB00B734F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C7128CB3BCA08906897D3A /* Pods_MyDuniaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0378A61F1693B300BEAC5A /* LeftBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F0378A71F1693E500BEAC5A /* WeatherForecast.swift */,
+				0F0378A91F1693F600BEAC5A /* SettingsVC.swift */,
+				0F0378AB1F16941B00BEAC5A /* CurrencyConverterVC.swift */,
+				0F0378AD1F16943100BEAC5A /* EmergenvyContactVC.swift */,
+				0F0378AF1F16944B00BEAC5A /* LanguageTranslatorVC.swift */,
+				5D8E66561F14DAA000B734F1 /* HomeVC.swift */,
+				0FFC4E881F1AA4BA00E27A95 /* NotificationVC.swift */,
+				0FFC4E8A1F1AA5E700E27A95 /* SearchResults.swift */,
+			);
+			name = LeftBar;
+			sourceTree = "<group>";
+		};
+		0FFC4E831F1945F800E27A95 /* Side menu */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC4E841F19461800E27A95 /* CustomSideMenuController.swift */,
+				5D8E66641F14FFAD00B734F1 /* LeftMenueVC.swift */,
+			);
+			name = "Side menu";
+			sourceTree = "<group>";
+		};
+		45A35D0259940694D723B8E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E31EBAF39898D967784E08A /* Pods-MyDunia.debug.xcconfig */,
+				07E7EBDEE7A2AD6ACBB0E904 /* Pods-MyDunia.release.xcconfig */,
+				C327C86724EC8C7F496DDB5F /* Pods-MyDuniaTests.debug.xcconfig */,
+				8891DA7502840F88537B6B48 /* Pods-MyDuniaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D44C2B41F15E9E300AF0095 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C2B51F15EA4300AF0095 /* CAPSPageMenu.swift */,
+				5D44C2B61F15EA4300AF0095 /* CAPSPageMenu+Options.swift */,
+				5D44C2B71F15EA4300AF0095 /* CAPSPageMenu+UIConfiguration.swift */,
+				5D44C2B81F15EA4300AF0095 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				5D44C2B91F15EA4300AF0095 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				5D44C2BA1F15EA4300AF0095 /* CAPSPageMenuConfiguration.swift */,
+				5D44C2BB1F15EA4300AF0095 /* MenuItemView.swift */,
+			);
+			name = PageMenu;
+			sourceTree = "<group>";
+		};
+		5D44C2C71F160D8900AF0095 /* ModalClases */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C2C51F16059D00AF0095 /* User.swift */,
+				5D44C2C91F163F0900AF0095 /* signUpData.swift */,
+			);
+			name = ModalClases;
+			sourceTree = "<group>";
+		};
+		5D44C2C81F160D9600AF0095 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D69521D1F176FAC009BECEB /* AIOCell.swift */,
+				5D6952211F178E0B009BECEB /* WeatherCell.swift */,
+				5D6952231F17ADB5009BECEB /* EmergencyContactCell.swift */,
+				5DD30FEB1F18903F00B736BC /* CheckBoxButton.swift */,
+				0FFC4E861F1A8EA500E27A95 /* AvailCountryCollCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		5D8E661E1F14D9AA00B734F1 = {
+			isa = PBXGroup;
+			children = (
+				5D8E66291F14D9AA00B734F1 /* MyDunia */,
+				5D8E66411F14D9AB00B734F1 /* MyDuniaTests */,
+				5D8E66281F14D9AA00B734F1 /* Products */,
+				45A35D0259940694D723B8E6 /* Pods */,
+				F61498910AB28A6D394A474B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D8E66281F14D9AA00B734F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E66271F14D9AA00B734F1 /* MyDunia.app */,
+				5D8E663E1F14D9AB00B734F1 /* MyDuniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D8E66291F14D9AA00B734F1 /* MyDunia */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC4E831F1945F800E27A95 /* Side menu */,
+				0F0378A61F1693B300BEAC5A /* LeftBar */,
+				5D44C2C81F160D9600AF0095 /* Cells */,
+				5D44C2C71F160D8900AF0095 /* ModalClases */,
+				5D44C2B41F15E9E300AF0095 /* PageMenu */,
+				5D8E66661F1503CF00B734F1 /* Extension */,
+				5D8E66581F14DB7D00B734F1 /* Helper */,
+				5D8E664D1F14DA3500B734F1 /* Profile */,
+				5D8E662A1F14D9AB00B734F1 /* AppDelegate.swift */,
+				5D8E662E1F14D9AB00B734F1 /* Main.storyboard */,
+				5D8E66341F14D9AB00B734F1 /* Assets.xcassets */,
+				5D8E66361F14D9AB00B734F1 /* LaunchScreen.storyboard */,
+				5D8E66391F14D9AB00B734F1 /* Info.plist */,
+				5D8E66311F14D9AB00B734F1 /* MyDunia.xcdatamodeld */,
+			);
+			path = MyDunia;
+			sourceTree = "<group>";
+		};
+		5D8E66411F14D9AB00B734F1 /* MyDuniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E66421F14D9AB00B734F1 /* MyDuniaTests.swift */,
+				5D8E66441F14D9AB00B734F1 /* Info.plist */,
+			);
+			path = MyDuniaTests;
+			sourceTree = "<group>";
+		};
+		5D8E664D1F14DA3500B734F1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E664E1F14DA4B00B734F1 /* LoginVC.swift */,
+				5D8E66501F14DA5F00B734F1 /* RegistrationVC.swift */,
+				5D8E66521F14DA7700B734F1 /* ForgotPassword.swift */,
+				5D8E66541F14DA8900B734F1 /* MyProfile.swift */,
+				5D44C2CB1F163F6200AF0095 /* MemberShipVC.swift */,
+				5D8E66671F15061500B734F1 /* AreaOfIntrestVC.swift */,
+				5D8E662C1F14D9AB00B734F1 /* ViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		5D8E66581F14DB7D00B734F1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E66691F150A7000B734F1 /* MyDuniaConnectionHelper.swift */,
+				5D44C2C31F15F12600AF0095 /* LocationManager.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		5D8E66661F1503CF00B734F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D44C2B01F15DF7000AF0095 /* UIColor+KCSColor.swift */,
+				5D44C2B21F15DFBB00AF0095 /* MyDuniaConstants.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F61498910AB28A6D394A474B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01CA3317212D6968E1A6BF1 /* Pods_MyDunia.framework */,
+				99BD9BE15769714D408CEFCC /* Pods_MyDuniaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8E66261F14D9AA00B734F1 /* MyDunia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8E66471F14D9AB00B734F1 /* Build configuration list for PBXNativeTarget "MyDunia" */;
+			buildPhases = (
+				8003079B1480414F2E53C795 /* [CP] Check Pods Manifest.lock */,
+				5D8E66231F14D9AA00B734F1 /* Sources */,
+				5D8E66241F14D9AA00B734F1 /* Frameworks */,
+				5D8E66251F14D9AA00B734F1 /* Resources */,
+				716F40AB2DBF64CFA5277228 /* [CP] Embed Pods Frameworks */,
+				F62849809FBC90D0D7453A91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDunia;
+			productName = MyDunia;
+			productReference = 5D8E66271F14D9AA00B734F1 /* MyDunia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D8E663D1F14D9AB00B734F1 /* MyDuniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8E664A1F14D9AB00B734F1 /* Build configuration list for PBXNativeTarget "MyDuniaTests" */;
+			buildPhases = (
+				A2B6C328530411A9CC876F3D /* [CP] Check Pods Manifest.lock */,
+				5D8E663A1F14D9AB00B734F1 /* Sources */,
+				5D8E663B1F14D9AB00B734F1 /* Frameworks */,
+				5D8E663C1F14D9AB00B734F1 /* Resources */,
+				E3BB0920E1E9B8ADD7E9349B /* [CP] Embed Pods Frameworks */,
+				C7958F121D734A52F8093EDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8E66401F14D9AB00B734F1 /* PBXTargetDependency */,
+			);
+			name = MyDuniaTests;
+			productName = MyDuniaTests;
+			productReference = 5D8E663E1F14D9AB00B734F1 /* MyDuniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D8E661F1F14D9AA00B734F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "TalentTrobe(India.com";
+				TargetAttributes = {
+					5D8E66261F14D9AA00B734F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VAWH7R9NX3;
+						ProvisioningStyle = Automatic;
+					};
+					5D8E663D1F14D9AB00B734F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VAWH7R9NX3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D8E66261F14D9AA00B734F1;
+					};
+				};
+			};
+			buildConfigurationList = 5D8E66221F14D9AA00B734F1 /* Build configuration list for PBXProject "MyDunia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D8E661E1F14D9AA00B734F1;
+			productRefGroup = 5D8E66281F14D9AA00B734F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8E66261F14D9AA00B734F1 /* MyDunia */,
+				5D8E663D1F14D9AB00B734F1 /* MyDuniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D8E66251F14D9AA00B734F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8E66381F14D9AB00B734F1 /* LaunchScreen.storyboard in Resources */,
+				5D8E66351F14D9AB00B734F1 /* Assets.xcassets in Resources */,
+				5D8E66301F14D9AB00B734F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8E663C1F14D9AB00B734F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		716F40AB2DBF64CFA5277228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDunia/Pods-MyDunia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8003079B1480414F2E53C795 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B6C328530411A9CC876F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7958F121D734A52F8093EDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BB0920E1E9B8ADD7E9349B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDuniaTests/Pods-MyDuniaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62849809FBC90D0D7453A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDunia/Pods-MyDunia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8E66231F14D9AA00B734F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6952241F17ADB6009BECEB /* EmergencyContactCell.swift in Sources */,
+				0F0378A81F1693E500BEAC5A /* WeatherForecast.swift in Sources */,
+				5D69521E1F176FAD009BECEB /* AIOCell.swift in Sources */,
+				5D44C2CA1F163F0900AF0095 /* signUpData.swift in Sources */,
+				5D8E66331F14D9AB00B734F1 /* MyDunia.xcdatamodeld in Sources */,
+				5D44C2BE1F15EA4300AF0095 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				5D6952221F178E0B009BECEB /* WeatherCell.swift in Sources */,
+				5D44C2C21F15EA4300AF0095 /* MenuItemView.swift in Sources */,
+				5D8E66571F14DAA000B734F1 /* HomeVC.swift in Sources */,
+				5D44C2B31F15DFBB00AF0095 /* MyDuniaConstants.swift in Sources */,
+				5D8E662D1F14D9AB00B734F1 /* ViewController.swift in Sources */,
+				5D8E66681F15061500B734F1 /* AreaOfIntrestVC.swift in Sources */,
+				5D44C2BC1F15EA4300AF0095 /* CAPSPageMenu.swift in Sources */,
+				5D44C2C11F15EA4300AF0095 /* CAPSPageMenuConfiguration.swift in Sources */,
+				0F0378B01F16944B00BEAC5A /* LanguageTranslatorVC.swift in Sources */,
+				5D44C2C41F15F12600AF0095 /* LocationManager.swift in Sources */,
+				0F0378AA1F1693F600BEAC5A /* SettingsVC.swift in Sources */,
+				0FFC4E851F19461800E27A95 /* CustomSideMenuController.swift in Sources */,
+				0F0378AE1F16943100BEAC5A /* EmergenvyContactVC.swift in Sources */,
+				0FFC4E891F1AA4BA00E27A95 /* NotificationVC.swift in Sources */,
+				0FFC4E871F1A8EA500E27A95 /* AvailCountryCollCell.swift in Sources */,
+				5D8E664F1F14DA4B00B734F1 /* LoginVC.swift in Sources */,
+				5D44C2BD1F15EA4300AF0095 /* CAPSPageMenu+Options.swift in Sources */,
+				5D8E66651F14FFAD00B734F1 /* LeftMenueVC.swift in Sources */,
+				5D8E66511F14DA5F00B734F1 /* RegistrationVC.swift in Sources */,
+				5D44C2C01F15EA4300AF0095 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				5D44C2BF1F15EA4300AF0095 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				5D8E666A1F150A7000B734F1 /* MyDuniaConnectionHelper.swift in Sources */,
+				0F0378AC1F16941B00BEAC5A /* CurrencyConverterVC.swift in Sources */,
+				0FFC4E8B1F1AA5E700E27A95 /* SearchResults.swift in Sources */,
+				5D8E66551F14DA8900B734F1 /* MyProfile.swift in Sources */,
+				5D44C2C61F16059D00AF0095 /* User.swift in Sources */,
+				5D44C2CC1F163F6200AF0095 /* MemberShipVC.swift in Sources */,
+				5D44C2B11F15DF7000AF0095 /* UIColor+KCSColor.swift in Sources */,
+				5DD30FEC1F18903F00B736BC /* CheckBoxButton.swift in Sources */,
+				5D8E662B1F14D9AB00B734F1 /* AppDelegate.swift in Sources */,
+				5D8E66531F14DA7700B734F1 /* ForgotPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8E663A1F14D9AB00B734F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8E66431F14D9AB00B734F1 /* MyDuniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D8E66401F14D9AB00B734F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D8E66261F14D9AA00B734F1 /* MyDunia */;
+			targetProxy = 5D8E663F1F14D9AB00B734F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D8E662E1F14D9AB00B734F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8E662F1F14D9AB00B734F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D8E66361F14D9AB00B734F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D8E66371F14D9AB00B734F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D8E66451F14D9AB00B734F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D8E66461F14D9AB00B734F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D8E66481F14D9AB00B734F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E31EBAF39898D967784E08A /* Pods-MyDunia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
+				INFOPLIST_FILE = MyDunia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksc.MyDunia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D8E66491F14D9AB00B734F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E7EBDEE7A2AD6ACBB0E904 /* Pods-MyDunia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
+				INFOPLIST_FILE = MyDunia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksc.MyDunia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5D8E664B1F14D9AB00B734F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C327C86724EC8C7F496DDB5F /* Pods-MyDuniaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
+				INFOPLIST_FILE = MyDuniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksc.MyDuniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDunia.app/MyDunia";
+			};
+			name = Debug;
+		};
+		5D8E664C1F14D9AB00B734F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8891DA7502840F88537B6B48 /* Pods-MyDuniaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VAWH7R9NX3;
+				INFOPLIST_FILE = MyDuniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksc.MyDuniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDunia.app/MyDunia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D8E66221F14D9AA00B734F1 /* Build configuration list for PBXProject "MyDunia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8E66451F14D9AB00B734F1 /* Debug */,
+				5D8E66461F14D9AB00B734F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8E66471F14D9AB00B734F1 /* Build configuration list for PBXNativeTarget "MyDunia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8E66481F14D9AB00B734F1 /* Debug */,
+				5D8E66491F14D9AB00B734F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8E664A1F14D9AB00B734F1 /* Build configuration list for PBXNativeTarget "MyDuniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8E664B1F14D9AB00B734F1 /* Debug */,
+				5D8E664C1F14D9AB00B734F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D8E66311F14D9AB00B734F1 /* MyDunia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D8E66321F14D9AB00B734F1 /* MyDunia.xcdatamodel */,
+			);
+			currentVersion = 5D8E66321F14D9AB00B734F1 /* MyDunia.xcdatamodel */;
+			path = MyDunia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D8E661F1F14D9AA00B734F1 /* Project object */;
+}
